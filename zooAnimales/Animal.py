@@ -1,4 +1,9 @@
 from gestion.zona import Zona
+from zooAnimales.anfibio import Anfibio
+from zooAnimales.reptil import Reptil
+from zooAnimales.mamifero import Mamifero
+from zooAnimales.ave import Ave
+from zooAnimales.pez import Pez
 class Animal:
 
 	_totalAnimales = 0
@@ -16,11 +21,6 @@ class Animal:
 
 	@classmethod
 	def totalPorTipo(cls):
-		from zooAnimales.anfibio import Anfibio
-		from zooAnimales.reptil import Reptil
-		from zooAnimales.mamifero import Mamifero
-		from zooAnimales.ave import Ave
-		from zooAnimales.pez import Pez
 
 		return f"Mamiferos : {Mamifero.cantidadMamiferos()}\nAves : {Ave.cantidadAves()}\nReptiles : {Reptil.cantidadReptiles()}\nPeces : {Pez.cantidadPeces()}\nAnfibios : {Anfibio.cantidadAnfibios()}"
 
