@@ -32,7 +32,7 @@ class Pez(Animal):
 		self._colorEscamas = colorEscamas
 
 	def getCantidadAletas(self):
-		return self.cantidadAletas
+		return self._cantidadAletas
 
 	def setCantidadAletas(self,cantidadAletas):
 		self._cantidadAletas = cantidadAletas

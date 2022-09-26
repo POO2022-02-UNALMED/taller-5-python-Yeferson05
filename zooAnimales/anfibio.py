@@ -26,13 +26,13 @@ class Anfibio(Animal):
 		return len(Anfibio._listado)
 
 	def getColorPiel(self):
-		return self.colorPiel
+		return self._colorPiel
 
 	def setColorPiel(self,colorPiel):
 		self._colorPiel = colorPiel
 
 	def getVenenoso(self):
-		return self._patas
+		return self._venenoso
 
 	def setVenenoso(self,venenoso):
 		self._venenoso = venenoso
