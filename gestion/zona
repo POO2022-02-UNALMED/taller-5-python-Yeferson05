@@ -27,3 +27,5 @@ class Zona:
 
     def setZona(self, animales): 
         self._animales = animales
+
+    #nn
