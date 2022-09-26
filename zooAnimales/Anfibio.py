@@ -12,7 +12,7 @@ class Anfibio(Animal):
 		Anfibio._listado.append(self)
 
 	@classmethod
-	def creaRana(cls,nombre,edad,genero):
+	def crearRana(cls,nombre,edad,genero):
 		Anfibio.ranas+=1
 		return Anfibio(nombre, edad, "selva", genero, "rojo", True)
 
