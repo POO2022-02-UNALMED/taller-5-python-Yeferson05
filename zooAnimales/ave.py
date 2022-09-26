@@ -25,10 +25,10 @@ class Ave(Animal):
 		return len(Ave._listado)
 
 	def getColorPlumas(self):
-		return self.colorPiel
+		return self._colorPlumas
 
-	def setColorPlumas(self,colorPiel):
-		self._colorPiel = colorPiel
+	def setColorPlumas(self,colorPlumas):
+		self._colorPlumas = colorPlumas
 	
 	def getListado(cls):
 		return Ave._listado
