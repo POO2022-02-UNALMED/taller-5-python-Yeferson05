@@ -1,3 +1,4 @@
+<<<<<<< HEAD:zooAnimales/Anfibio.py
 from zooAnimales.animal import Animal
 
 class Anfibio(Animal):
