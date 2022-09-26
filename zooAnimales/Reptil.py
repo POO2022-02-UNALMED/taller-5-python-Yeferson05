@@ -25,7 +25,7 @@ class Reptil(Animal):
 	def cantidadReptiles(cls):
 		return len(Reptil._listado)
 
-	def isColorEscamas(self):
+	def getColorEscamas(self):
 		return self._colorEscamas
 
 	def setColorEscamas(self,colorEscamas):

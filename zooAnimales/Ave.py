@@ -24,7 +24,7 @@ class Ave(Animal):
 	def cantidadAves(cls):
 		return len(Ave._listado)
 
-	def isColorPlumas(self):
+	def getColorPlumas(self):
 		return self.colorPiel
 
 	def setColorPlumas(self,colorPiel):
