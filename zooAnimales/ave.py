@@ -1,4 +1,3 @@
-<<<<<<< HEAD:zooAnimales/Ave.py
 from zooAnimales.animal import Animal
 
 class Ave(Animal):

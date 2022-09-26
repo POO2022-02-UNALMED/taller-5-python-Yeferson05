@@ -1,4 +1,3 @@
-<<<<<<< HEAD:zooAnimales/Mamifero.py
 from zooAnimales.animal import Animal
 
 class Mamifero(Animal):
