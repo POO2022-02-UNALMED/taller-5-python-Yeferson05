@@ -1,3 +1,4 @@
+from zooAnimales.animal import Animal
 class Zona:
     def __init__(self, nombre, zoo=None):
         self._nombre = nombre
@@ -22,8 +23,8 @@ class Zona:
     def setUbicacion(self, ubicacion): 
         self._ubicacion = ubicacion
 
-    def getzona(self): 
+    def getZona(self): 
         return self._zonas
 
-    def setzona(self, animales): 
+    def setZona(self, animales): 
         self._animales = animales
