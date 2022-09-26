@@ -23,9 +23,7 @@ class Zona:
         self._ubicacion = ubicacion
 
     def getZona(self): 
-        return self._zonas
+        return self._animales
 
     def setZona(self, animales): 
         self._animales = animales
-
-    #nn
